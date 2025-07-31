@@ -1,10 +1,17 @@
 package main
 
-import "github.com/wildimice/godesde0/variables"
+import (
+	"fmt"
+
+	"github.com/wildimice/godesde0/variables"
+)
 
 func main() {
 	//fmt.Println("Hello, World!")
 	//variables.MuestroEnteros()
 
-	variables.RestoVariables()
+	//variables.RestoVariables()
+	estado, texto := variables.ConviertoaTexto(12345)
+	fmt.Println("Estado:", estado)
+	fmt.Println("Texto:", texto)
 }
