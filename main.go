@@ -3,15 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/wildimice/godesde0/variables"
+	"github.com/wildmice/godesde0/ejercicios"
 )
 
 func main() {
-	//fmt.Println("Hello, World!")
-	//variables.MuestroEnteros()
 
-	//variables.RestoVariables()
-	estado, texto := variables.ConviertoaTexto(12345)
-	fmt.Println("Estado:", estado)
-	fmt.Println("Texto:", texto)
+	valor, texto := ejercicios.Devuelve2Valores("50")
+	fmt.Println("Valor devuelto:", valor)
+	fmt.Println("Texto devuelto:", texto)
+
 }
