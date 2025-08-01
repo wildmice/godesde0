@@ -1,10 +1,6 @@
 package ejercicios
 
-import ( 
-	"fmt" 
-	"strconv"
-)
-
+import 	"strconv"
 
 func Devuelve2Valores(string texto) (int, string) {
 	// Devuelve dos valores, un entero y un string
