@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	valor, texto := ejercicios.Devuelve2Valores("50")
+	valor, texto := ejercicios.Devuelve2Valores("500")
 	fmt.Println("Valor devuelto:", valor)
 	fmt.Println("Texto devuelto:", texto)
 }
